@@ -1,10 +1,5 @@
 # Kredi Ruby Quiz
 
-Quiz developed by Eduardo Arenas
-
-It is about 5 questions
-## Answers
-
 1. Write a function that returns product of all numbers of an array/range
 
 ``` ruby:lib/01_product.rb
