@@ -12,17 +12,12 @@ end
 
 2. Compare if two strings are anagrams (assume input consists of ASCII alphabets only)
 
-```
->> anagram?('Tap', 'paT')
-=> true
->> anagram?('beat', 'table')
-=> false
->> anagram?('beat', 'abet')
-=> true
->> anagram?('seat', 'teal')
-=> false
->> anagram?('god', 'Dog')
-=> true
+``` ruby:lib/02_anagram.rb
+class Anagram
+  def self.run(value_one, value_two)
+    value_one.downcase.chars.sort == value_two.downcase.chars.sort
+  end
+end
 ```
 
 3. Compare if two strings are same irrespective of case
