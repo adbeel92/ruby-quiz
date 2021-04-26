@@ -22,15 +22,12 @@ end
 
 3. Compare if two strings are same irrespective of case
 
-```
->> compare('nice', 'nice')
-=> true
->> compare('how', 'who')
-=> false
->> compare('GoOd DaY', 'gOOd dAy')
-=> true
->> compare('foo', 'food')
-=> false
+``` ruby:lib/03_compare.rb
+class Compare
+  def self.run(value_one, value_two)
+    value_one.downcase == value_two.downcase
+  end
+end
 ```
 
 4. Write a function that sorts the keys in a hash by the length of the key as a string. For instance, the hash:
