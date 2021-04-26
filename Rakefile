@@ -14,4 +14,8 @@ Rake::TestTask.new(:test) do |t|
   t.test_files = FileList['test/**/*_test.rb']
 end
 
+task :benchmarks do
+  ruby 'benchmarks/*.rb'
+end
+
 task default: %w[rubocop test]

@@ -22,6 +22,8 @@ Install deps: `gem install bundler -v 2.2.4 && bundle install`.
 
 Run: `bundle exec rake` to run the rubocop and tests.
 
+Run: `bundle exec rake benchmarks` to run the benchmarking examples.
+
 ## [Answers](quiz.md)
 
 Code of the 5 answers [here](quiz.md)

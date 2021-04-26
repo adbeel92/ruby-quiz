@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'benchmark', '~> 0.1.1'
 gem 'minitest', '~> 5.14.2'
 gem 'pry', '~> 0.13.1'
 gem 'rake', '~> 13.0.1'
