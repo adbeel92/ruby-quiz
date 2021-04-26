@@ -41,3 +41,8 @@ end
 ```
 
 5. Explain the difference between calling super and super() methods (OOP)
+
+In both cases, you are calling the parent method with the same method name.
+When you call `super`, you are passing the same arguments of the current method.
+When you call `super()`, you are not passing any argument.
+ 
