@@ -32,11 +32,12 @@ end
 
 4. Write a function that sorts the keys in a hash by the length of the key as a string. For instance, the hash:
 
-```
-{ abc: 'hello', another_key: 123, 4567 => 'third' }
-should result in:
-
-["abc", "4567", "another_key"]
+``` ruby:lib/04_sorting_keys.rb
+class SortingKeys
+  def self.run(hash)
+    hash.keys.map(&:to_s).sort_by(&:length)
+  end
+end
 ```
 
 5. Explain the difference between calling super and super() methods (OOP)
