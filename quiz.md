@@ -1,4 +1,4 @@
-# Kredi Ruby Quiz
+# Ruby Quiz Answers
 
 1. Write a function that returns product of all numbers of an array/range
 
